@@ -2,5 +2,4 @@
 <manifest>
     <remove-project name="kernel/tests" />
     <remove-project name="platform/prebuilts/android-emulator" />
-    <remove-project name="kernel/prebuilts/4.19/arm64"/>
-</manifest>
+    </manifest>
