@@ -2,6 +2,7 @@
 <manifest>
     <remote name="mido" fetch="https://github.com/android-eleven/" />
     <remote name="anar" fetch="https://github.com/Jabiyeff/" />
+    <remote name="los" fetch="https://github.com/LineageOS/" />
     
     # HALS
     <remove-project name="android_hardware_qcom_audio" />
@@ -11,4 +12,9 @@
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="pdk,qcom,qcom_media" remote="anar" revision="caf-msm8996-r" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="anar" revision="caf-msm8996-r" />
     
+    # PREBUILTS
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-18.1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-18.1" />
+    <project path="prebuilts/gcc/linux-x86/x86/x86_x64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="los" revision="lineage-18.1" />
+
 </manifest>
