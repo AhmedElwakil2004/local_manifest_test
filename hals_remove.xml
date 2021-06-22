@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="los" fetch="https://github.com/LineageOS/" />
 <remove-project name="platform/hardware/qcom/sdm845/bt" />
 <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/gps" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr"/>
-  <remove-project name="android_hardware_qcom_display" />
-  <remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_qcom_media" />
 </manifest>
 
