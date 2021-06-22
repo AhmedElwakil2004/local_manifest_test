@@ -6,8 +6,8 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr"/>
-  <remove-project name="hardware/qcom/sdm845/display" />
-  <remove-project name="hardware/qcom/sdm845/audio" />
-  <remove-project name="hardware/qcom/sdm845/media" />
+  <remove-project name="hardware/qcom-caf/sdm845/display" />
+  <remove-project name="hardware/qcom-caf/sdm845/audio" />
+  <remove-project name="hardware/qcom-caf/sdm845/media" />
 </manifest>
 
